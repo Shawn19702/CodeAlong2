@@ -1,0 +1,125 @@
+ Arrays:
+ An array is a list where you define the size
+ An array has a fixed size
+ An array is fast for data retrieving
+ it is hard to delete elements in an array
+To create an array you need to specify the data type use [] name it something and then give it a value
+You initialize a array by doing = new data type and then assigning it a value in the brackets of many elements the array could hold
+You could add elements to an array by calling its name and putting the index number you want to assign the value to
+To print the contents in an array you must do Array.to-string
+To access an element at a certain index you will do sout the array name and index number in []
+Arrays start at 0
+Trying to print a index number that is bigger than the length of the array will give you an out of bounds error
+You can add values in an array by setting the index number in the array to a value that you want like this color [3] = "blue";
+You can reassign values in an array by setting the index number in the array to a different value like this color [3] = "blue";
+You can Use for loop or enhanced to loop through array
+Do sout with array name and index as the variable you used in the for loop to the print the arrays contents
+You can see the length of your array with the array name .length
+Use for, brackets, data type of the array : and then array name for enhanced for loop
+ You could use Arrays.stream(colors).forEach(System.out::println); to print for each loop
+Arrays has a lot of utility methods
+
+2D Arrays:
+2D Arrays has columns and rows columns are up and down rows are across
+2D Arrays have 2 square brackets instead of one
+2D arrays use two indexes for rows and columns
+Nested for loops are used to loop through 2D arrays
+Use deep to string to print 2D array
+2d Arrays are use for grids
+
+Lists:
+List allows duplicates
+Lists are first for data retrievals
+Lists have various implementations
+Use add to add things to array list
+Data type goes into diamonds for array list
+Use get size for arraylist size
+Use contains for to see if the arraylist contains something
+You can use for loop, enhanced for loop, or for each loop loop through array
+List of is unmodifiable
+
+Stack:
+Push pushes an element into a stack
+Pop removes an element at the top of the stack
+Peak method allows you to see top of the stack without removing it
+To create a stack of numbers you would do Stack<Integer> stack = new Stack<>();
+To crate a stack of strings you would do Stack<String> stack = new Stack<>();
+To push something in the stack you would do stack.push and type that value in the brackets you want to push
+To see something at the top of the stack you would do stack.peak
+To see the size of the stack you would do stack.size
+To see remove something at the top of the stack you would do stack.pop
+To see if the stack is empty you would do stack.empty return boolean value
+
+Queue:
+A queue is for holding element prior to processing
+A queue is first in first out
+The Queue interface extends collection
+You would do the name of the queue, add, and than than new data type of the queue with its parameters such as supermarket.add(new Person("Alex", 21));
+to add something to the queue
+do name of queue.peak to see the front if the queue
+do name of queue.peak to remove something from the queue
+
+LinkedLists:
+A linked list is made up multiple nulls
+Each node in an Linked-list can have any data type you want such as car objects or numbers
+A linked list is a implementation of the queue interface
+The add method passes an element to a linked-list
+You can use list.listIterator to iterate through the list
+has next loops through the list in order you put it in
+has [previous] loops through the list backwards
+You can add to a particular index in linked list
+You can also do add last and first in a linked list this changes the order if you want the element added in the linked list to be first or last
+
+Sets:
+Sets have no duplicates
+Sets doesn't guarantee order
+Sets have no pair of elements
+Tree set gives order in a set
+There is not a method to get a specific index in a set because it is unordered
+Duplicates are not allowed in sets so a duplicate wouldn't be counted in the set size
+You need to override equal and hashcode method for set to work correctly in a static class
+THe remove method can remove elements from a set for example balls.remove(new Ball("red"));
+
+Maps:
+Maps are a collection of key value pairs
+Keys cant be duplicate
+Each key could contain at most one value
+To insert in a map you do map.put
+The latest insert will override the original initialized value in a map if there is duplicates
+You can see the size of a map by doing map.size
+You can get a specific key in a map using map.get with the object key
+The contains key method tells you if a key exist or not in your map return boolean value
+Key set gives you all the keys in a map
+Entry set gives you all the entries in a map
+You can use lambda loop or for each loop to iterate through map
+You can do map.remove to remove a key
+Use clear to remove everything from map
+You could do compute if absent or compute if present meaning to do something if the key is absent or present
+map.getdefault allows to subside a key if not present with a value you want
+Use map.values to get map values
+Lookups in maps are very fast because of the hashcode
+need to invoke hashcode method so map strings do not print out as
+Identical objects have the same hashcode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
